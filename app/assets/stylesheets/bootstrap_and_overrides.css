@@ -5,7 +5,13 @@
   =require twitter-bootstrap-static/sprites
 */
 
+
+
 .navbar {
     min-height: 80px;
     margin-bottom: 20px;
+}
+
+.mfbdLogo {
+  margin-top: -10px;
 }
