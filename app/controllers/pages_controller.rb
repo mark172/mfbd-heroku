@@ -3,6 +3,9 @@ class PagesController < ApplicationController
     @message = "This is the index page. Howdy world!"
   end
   
-  def gallery
+  def photoGallery
+  end
+  
+  def videos
   end
 end
