@@ -13,6 +13,8 @@
  *= require_tree .
  *= require_self
  *= require font-awesome
- *= require blueimp-gallery-all
+ *= require blueimp-gallery
+ *= require blueimp-gallery-indicator
+ *= require blueimp-gallery-video
  */
 

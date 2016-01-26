@@ -14,6 +14,10 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
-//= require blueimp-gallery-all
+//= require blueimp-gallery
+//= require blueimp-gallery-fullscreen
+//= require blueimp-gallery-indicator
+//= require blueimp-gallery-video
+//= require jquery.blueimp-gallery
 //= require_tree .
 
