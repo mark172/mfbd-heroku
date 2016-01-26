@@ -15,7 +15,7 @@
     </div>
     <div class="row">
       <div class="col-md-4">
-        <%= link_to (image_tag ("portfolio/thumb/item1.jpg"), class: "thumbnail"), "https://vimeo.com/103637434", :title => "TEST" %>
+        <%= link_to (image_tag ("portfolio/thumb/item1.jpg"), class: "thumbnail"), "https://www.youtube.com/watch?v=ksmDuXO_k6E", :title => "Video 1", :'data-youtube' => 'ksmDuXO_k6E', :type => "text/html" %>
       </div>
     <div class="col-md-4">
         <%= link_to (image_tag ("portfolio/thumb/item1.jpg"), class: "thumbnail"), image_path('portfolio/full/item1.jpg'), :title => "TEST" %>
@@ -38,6 +38,5 @@ document.getElementById('links').onclick = function (event) {
     options = {index: link, event: event},
     links = this.getElementsByTagName('a');
   blueimp.Gallery(links, options);
-  var fullscreenOptions = { fullScreen: false }; 
 };
 </script>
