@@ -8,14 +8,25 @@
   <ol class="indicator"></ol>
 </div>
 
+<section id="title" class="asbestos">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="galleryHeader">Video Gallery</h1>
+                    <br>
+                    <%= link_to "Click here for photos", photoGallery_path, class: "galleryHeader" %>
+                </div>
+                <div class="col-sm-6">
+                </div>
+            </div>
+        </div>
+    </section><!--/#title-->
+    
 <div id="links">
   <div class="container">
-    <div>
-      <h1 class="galleryHeader text-center">Our Videos</h1>
-    </div>
     <div class="row">
       <div class="col-md-4">
-        <%= link_to (image_tag ("portfolio/thumb/item1.jpg"), class: "thumbnail"), "https://www.youtube.com/watch?v=ksmDuXO_k6E", :title => "Video 1", :'data-youtube' => 'ksmDuXO_k6E', :type => "text/html" %>
+        <%= link_to (image_tag ("portfolio/thumb/item1.jpg"), class: "thumbnail"), "https://www.youtube.com/embed/ksmDuXO_k6E", :title => "Video 1", :'data-youtube' => 'ksmDuXO_k6E', :type => "text/html", :'data-link' => 'http://img.youtube.com/vi/ksmDuXO_k6E/default.jpg'  %>
       </div>
     <div class="col-md-4">
         <%= link_to (image_tag ("portfolio/thumb/item1.jpg"), class: "thumbnail"), image_path('portfolio/full/item1.jpg'), :title => "TEST" %>

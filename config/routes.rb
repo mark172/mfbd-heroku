@@ -3,7 +3,9 @@ Rails.application.routes.draw do
   
   get '/photoGallery' => 'pages#photoGallery'
   get '/videos' => 'pages#videos'
-
+  get '/about' => 'pages#about'
+  
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

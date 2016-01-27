@@ -8,11 +8,23 @@
   <ol class="indicator"></ol>
 </div>
 
+
+<section id="title" class="asbestos">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="galleryHeader">Photo Gallery</h1>
+                    <br>
+                    <%= link_to "Click here for videos", videos_path, class: "galleryHeader" %>
+                </div>
+                <div class="col-sm-6">
+                </div>
+            </div>
+        </div>
+    </section><!--/#title-->
+    
 <div id="links">
   <div class="container">
-    <div>
-      <h1 class="galleryHeader text-center">Our Photos</h1>
-    </div>
     <div class="row">
       <div class="col-md-4">
         <%= link_to (image_tag ("portfolio/thumb/item1.jpg"), class: "thumbnail"), image_path('portfolio/full/item1.jpg'), :title => "TEST" %>

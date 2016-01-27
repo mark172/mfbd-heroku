@@ -8,4 +8,7 @@ class PagesController < ApplicationController
   
   def videos
   end
+  
+  def about
+  end
 end
