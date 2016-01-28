@@ -6,9 +6,6 @@
                     <p>More than you care to know!</p>
                 </div>
                 <div class="col-sm-6">
-                    <ul class="breadcrumb pull-right">
-                        <li><%= link_to "Home", root_path %></li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -18,33 +15,34 @@
         
 
         <div class="gap"></div>
-        <h1 class="center">Meet the Band</h1>
+        <h1 class="center galleryHeader">Meet the Band</h1>
         <div class="gap"></div>
 
         <div id="meet-the-team" class="row">
             <div class="col-md-4 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team-member.jpg" alt="" ></p>
+                    <p><%= image_tag "about/aboutMF.png", class: "img-responsive img-thumbnail img-circle" %></p>
                     <h5>Mac Fontana<small class="designation muted">Keyboards and Vocals</small></h5>
                     <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                    <%= link_to '<i class="fa fa-facebook"></i>'.html_safe, "https://www.facebook.com/mccrea.adams", class: "btn btn-social btn-facebook", :target => "_blank" %>
                 </div>
             </div>
 
             <div class="col-md-4 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team-member.jpg" alt="" ></p>
+                    <p><%= image_tag "about/aboutBD.png", class: "img-responsive img-thumbnail img-circle" %></p>
                     <h5>Big D<small class="designation muted">Guitar and Vocals</small></h5>
                     <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                    <%= link_to '<i class="fa fa-facebook"></i>'.html_safe, "https://www.facebook.com/darryl.battaglia.7", class: "btn btn-social btn-facebook", :target => "_blank" %>
                 </div>
             </div>        
             <div class="col-md-4 col-xs-6">
                 <div class="center">
-                    <p><img class="img-responsive img-thumbnail img-circle" src="images/team-member.jpg" alt="" ></p>
+                    <p><%= image_tag "about/aboutME.png", class: "img-responsive img-thumbnail img-circle" %></p>
                     <h5>Mark E<small class="designation muted">Drums</small></h5>
                     <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-                    <a class="btn btn-social btn-facebook" href="#"><i class="icon-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="icon-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="icon-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="icon-linkedin"></i></a>
+                    <%= link_to '<i class="fa fa-facebook"></i>'.html_safe, "https://www.facebook.com/markevangelista70", class: "btn btn-social btn-facebook", :target => "_blank" %>
+                    <%= link_to '<i class="fa fa-twitter"></i>'.html_safe, "https://twitter.com/1lapilot", class: "btn btn-social btn-twitter", :target => "_blank" %>
                 </div>
             </div>        
         </div><!--/#meet-the-team-->
