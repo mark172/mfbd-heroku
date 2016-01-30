@@ -1,14 +1,18 @@
-<p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Title:</strong>
-  <%= @song.title %>
-</p>
-
-<p>
-  <strong>Artist:</strong>
-  <%= @song.artist %>
-</p>
-
-<%= link_to 'Edit', edit_song_path(@song) %> |
-<%= link_to 'Back', songs_path %>
+<div class="container">
+  <div class="col-md-6 col-md-offset-4">
+    <p id="notice"><%= notice %></p>
+    
+    <p>
+      <strong>Title:</strong>
+      <%= @song.title %>
+    </p>
+    
+    <p>
+      <strong>Artist:</strong>
+      <%= @song.artist %>
+    </p>
+    
+    <%= link_to 'Edit', edit_song_path(@song), class: "btn btn-primary" %> |
+    <%= link_to 'Back', songs_path, class: "btn btn-success" %>
+  </div>
+</div>
