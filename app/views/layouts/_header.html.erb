@@ -21,7 +21,7 @@
                         <li><%= link_to "Videos", videos_path %></li>
                       </ul>
                     </li>
-                    <li><a href="contact-us.html">Contact</a></li>
+                    <li class="<%= 'active' if current_page?(new_contact_path) %>"><%= link_to "Contact Us", new_contact_path %></li>
                 </ul>
             </div>
         </div>

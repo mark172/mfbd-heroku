@@ -23,3 +23,7 @@
 .well {
     background: #BFBFBF;
 }
+
+.requiredField {
+  color: red;
+}
