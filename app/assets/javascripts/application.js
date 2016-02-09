@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require pages
 //= require twitter/bootstrap
 //= require turbolinks
 //= require blueimp-gallery
@@ -21,4 +22,5 @@
 //= require blueimp-gallery-youtube
 //= require jquery.blueimp-gallery
 //= require_tree .
+
 

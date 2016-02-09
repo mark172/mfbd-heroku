@@ -30,6 +30,8 @@ gem 'simple_form'
 gem "font-awesome-rails"
 # Blueimp Gallery
 gem 'blueimp-gallery'
+# Animate CSS
+gem "animate-rails"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
