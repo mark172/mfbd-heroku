@@ -32,6 +32,8 @@ gem "font-awesome-rails"
 gem 'blueimp-gallery'
 # Animate CSS
 gem "animate-rails"
+# Devise
+gem 'devise'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
