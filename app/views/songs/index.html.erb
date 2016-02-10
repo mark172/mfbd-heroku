@@ -28,11 +28,13 @@
               <% end %>
             </tbody>
           </table>
+          <% if current_admin %>
           <div class="row">
-                <div class="col-md-4">
-                  <%= link_to 'New Song', new_song_path, class: "btn btn-primary" %>
-                </div>
-              </div>
+            <div class="col-md-4">
+              <%= link_to 'New Song', new_song_path, class: "btn btn-primary" %>
+            </div>
+          </div>
+          <% end %>
         </div>
       </div>
     </div>
