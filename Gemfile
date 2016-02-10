@@ -60,7 +60,7 @@ end
 
 group :production do
   gem 'rails_12factor'
-  gem 'postgres', '~> 0.8.1'
+  gem 'pg'
 end
 
 ruby "2.2.4"
