@@ -1,0 +1,32 @@
+
+<%= javascript_tag do %>
+  $(document).ready(function() {
+
+    // page is now ready, initialize the calendar...
+
+    $('#calendar').fullCalendar({
+    views: {
+        basic: {
+            // options apply to basicWeek and basicDay views
+        },
+        agenda: {
+            // options apply to agendaWeek and agendaDay views
+        },
+        week: {
+            // options apply to basicWeek and agendaWeek views
+        },
+        day: {
+            // options apply to basicDay and agendaDay views
+        }
+    }
+});
+
+});
+<% end %>
+
+<div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://calendar.google.com/calendar/embed?title=Mac%20Fonatana%20and%20Big%20D%20Upcoming%20Shows&amp;showPrint=0&amp;height=200&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=macfontanaandbigd%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="800" height="200" frameborder="0" scrolling="no"></iframe>
+			</div>
+</div>
