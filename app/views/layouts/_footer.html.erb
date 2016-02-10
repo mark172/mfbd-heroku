@@ -7,9 +7,8 @@
             <div class="col-sm-6">
               <ul class="pull-right">
                 <li><a href="#">Home</a></li>
-                  <li><%= link_to "All Contacts", contacts_path %> </li>
                 <% if current_admin %>
-                  <li><%= link_to "Logout", destroy_admin_session_path, method: :delete %></li>
+                  <li><%= link_to "Logout", destroy_admin_session_path, method: :delete %> | <%=link_to "Contact List", contacts_path %></li>
                 <% else %>
                   <li><%= link_to "Admin", new_admin_session_path %></li>
                 <% end %>
