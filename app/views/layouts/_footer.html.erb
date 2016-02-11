@@ -2,11 +2,10 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
-                &copy; 2016 <a target="_blank" href="http://macfontanaandbigd.com/">Mac Fontana and Big D</a>. All Rights Reserved.
+                &copy; 2016 <a target="_blank" href="http://www.macfontanaandbigd.com/">Mac Fontana and Big D</a>. All Rights Reserved.
             </div>
             <div class="col-sm-6">
               <ul class="pull-right">
-                <li><a href="#">Home</a></li>
                 <% if current_admin %>
                   <li><%= link_to "Logout", destroy_admin_session_path, method: :delete %> | <%=link_to "Contact List", contacts_path %></li>
                 <% else %>
