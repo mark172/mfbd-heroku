@@ -14,4 +14,7 @@ class PagesController < ApplicationController
   
   def shows
   end
+  
+  def listen
+  end
 end

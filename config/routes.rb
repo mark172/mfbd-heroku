@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/videos' => 'pages#videos'
   get '/about' => 'pages#about'
   get '/shows' => 'pages#shows'
+  get '/listen' => 'pages#listen'
   
   
   # The priority is based upon order of creation: first created -> highest priority.
