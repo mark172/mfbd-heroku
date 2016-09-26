@@ -33,8 +33,7 @@ gem 'blueimp-gallery'
 gem "animate-rails"
 # Devise
 gem 'devise'
-# AWS
-gem 'aws-s3', :require => 'aws/s3'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
